@@ -1,3 +1,0 @@
-{
-    base: "/wiki-test/"
-}
