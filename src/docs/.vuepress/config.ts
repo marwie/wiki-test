@@ -1,8 +1,8 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
+import { path } from '@vuepress/utils'
 // import { searchPlugin } from '@vuepress/plugin-search'
 // // import { mermaidPlugin } from "@renovamen/vuepress-plugin-mermaid";
-// import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-// import { getDirname, path } from '@vuepress/utils'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 // import * as videoplayer from "vuepress-plugin-core-video-player";
 
 
@@ -13,6 +13,10 @@ export default defineUserConfig({
     description: 'Needle Engine is a web-based runtime for 3D apps. It runs on your machine for development, and can be deployed anywhere. It is flexible, extensible, and collaboration and XR come naturally.',
     theme: defaultTheme({
         logo: "/logo.png",
+        colorModeSwitch: false, // disable until https://github.com/vuepress/vuepress-next/issues/1140
+        lastUpdated: false, // disable until https://github.com/vuepress/vuepress-next/issues/1140
+        // editLink: false,
+        contributors: false,
         navbar: [
             {
                 text: 'Home',
@@ -57,9 +61,10 @@ export default defineUserConfig({
 
         // }),
         // mermaidPlugin,
-        // registerComponentsPlugin({
-        //     componentsDir: path.resolve(__dirname, './components'),
-        // }),
+        registerComponentsPlugin({
+            componentsDir: path.resolve(__dirname, './components'),
+        }),
         // videoplayer
     ],
+
 })
