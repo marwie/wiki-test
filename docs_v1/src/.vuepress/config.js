@@ -22,6 +22,16 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
+  markdown: {
+    EmojiPluginOptions : {
+      enabled: true,
+      defs: { 
+        ':smile:': '😄',
+        ':wink:': '😉',
+      }
+    },
+  },
+
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -31,8 +41,8 @@ module.exports = {
     repo: '',
     editLinks: false,
     docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    editLinkText: 'Edit',
+    lastUpdated: true,
     nav: [
       {
         text: 'Guide',
