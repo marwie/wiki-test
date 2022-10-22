@@ -3,7 +3,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 // import { mermaidPlugin } from "@renovamen/vuepress-plugin-mermaid";
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { getDirname, path } from '@vuepress/utils'
-
+import * as videoplayer from "vuepress-plugin-core-video-player";
 
 
 export default defineUserConfig({
@@ -53,12 +53,13 @@ export default defineUserConfig({
         // },
     },
     plugins: [
-        searchPlugin({
+        // searchPlugin({
 
-        }),
+        // }),
         // mermaidPlugin,
         registerComponentsPlugin({
             componentsDir: path.resolve(__dirname, './components'),
         }),
+        // videoplayer
     ],
 })
