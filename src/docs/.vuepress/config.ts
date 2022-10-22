@@ -4,6 +4,7 @@ export default defineUserConfig({
     lang: 'en-US',
     title: 'Needle Engine Documentation',
     description: 'Just playing around',
+    base: '/docs/',
     theme: defaultTheme({
         logo: "/logo.png",
         navbar: [
