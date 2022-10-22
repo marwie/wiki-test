@@ -1,4 +1,6 @@
-:::: code-group
+
+<!-- this doesnt until this is fixed: https://github.com/vuepress/vuepress-next/issues/1140 -->
+<!-- :::: code-group
 ::: code-group-item ts
 ```ts
 export class MyScript extends Behaviour {
@@ -14,7 +16,11 @@ public class MyScript : MonoBehaviour {
 }
 ```
 :::
-::::
+:::: -->
 
 
 <sample src="https://cdn.needle.tools/needle-engine/samples/screensharing" />
+
+
+
+@[code](./code-samples/BasicComponent.ts)
