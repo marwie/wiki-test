@@ -1,6 +1,18 @@
 // https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#style-file
 :root {
     // brand colors
-    --c-brand: #a0d750;
-    --c-brand-light: #ffe113;
+    --c-brand: #99CC33;
+    --c-brand-light: #D7DB0A;
+    --c-text-accent: #826aed;
+    
+  // code blocks vars
+  --code-bg-color: #383838;
+  --code-hl-bg-color: rgba(0, 0, 0, 0.5);
+  --code-ln-color: #fff;
+  --code-ln-wrapper-width: 2rem;
+  
+  --sidebar-width: 30rem;
+  --sidebar-width-mobile: calc(var(--sidebar-width) * 0.5);
+  --content-width: 800px;
+  --homepage-width: 100%;
 }
