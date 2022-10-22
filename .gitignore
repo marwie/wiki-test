@@ -1,3 +1,4 @@
 ﻿node_modules
 .cache
 .temp
+src/docs/.vuepress/config.ts.*.mjs

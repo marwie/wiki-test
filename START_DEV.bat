@@ -1,1 +1,1 @@
-cd src & npm install & npm run docs:dev & timeout 5
+cd src & npm install & npm run docs:dev & pause
