@@ -16,5 +16,6 @@ export default defineUserConfig({
         repo: "needle-tools/needle-engine-support",
         docsRepo: "marwie/wiki-test",
         docsBranch: "dev",
+        docsDir: "src/docs",
     }),
 })
