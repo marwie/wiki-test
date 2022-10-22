@@ -1,9 +1,6 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 
-
-import * as mermaidjs from "@renovamen/vuepress-plugin-mermaid";
-
 export default defineUserConfig({
     base: "/wiki-test/",
     lang: 'en-US',
@@ -11,7 +8,7 @@ export default defineUserConfig({
     description: 'Needle Engine is a web-based runtime for 3D apps. It runs on your machine for development, and can be deployed anywhere. It is flexible, extensible, and collaboration and XR come naturally.',
     theme: defaultTheme({
         logo: "/logo.png",
-        navbar: [
+        navbar: [ 
             {
                 text: 'Home',
                 link: '/',
@@ -27,7 +24,6 @@ export default defineUserConfig({
         docsDir: "src/docs",
     }),
     plugins: [
-        searchPlugin({}),
-        mermaidjs.default
+        searchPlugin({})
     ],
 })
