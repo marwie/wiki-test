@@ -2,3 +2,4 @@
 .cache
 .temp
 src/docs/.vuepress/config.ts.*.mjs
+src/docs/.vuepress/dist

@@ -10,10 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@renovamen/vuepress-plugin-mermaid": "^2.0.0-alpha.26",
-    "mermaid": "^9.1.7",
-    "vuepress": "^2.0.0-beta.52",
-    "vuepress-plugin-mermaid-next": "^0.1.9"
+    "vuepress": "^2.0.0-beta.52"
   },
   "devDependencies": {
     "@vuepress/plugin-external-link-icon": "^2.0.0-beta.52",
