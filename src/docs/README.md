@@ -30,4 +30,4 @@ public class MyScript : MonoBehaviour {
 
 ### Code
 
-@[code](./code-samples/BasicComponent.js)
+@[code](./code-samples/BasicComponent.ts)
